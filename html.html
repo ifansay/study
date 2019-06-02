@@ -1,19 +1,58 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta name="author" content="ifansay">
         <meta name="discription" content="assioncent">
-        <meta http-equiv="refresh" content="30">
+        <meta http-equiv="refresh" content="120">
         <meta charset="utf-8">
         <title>我的学习网页</title>
-        <style>body {background-color:yellow} p {color:blue}</style>
+        <style>
+        body {background-image:url(e:/coc.jpg);
+            background-attachment:local;} 
+        p {color:blue}
+        ul.a {list-style-type:lower-greek;}
+        </style>
     </head>
     <body>
         <!--学习与练习-->
-        <h3>这是标题</h3>
-        <p>这是段落</p>
-        <a href="https://www.baidu.com">点击搜索</a>
+        <h3>欢迎使用HTML学习系统</h3>
+        <a href="https://www.baidu.com/" style="color:mediumseagreen">百度一下,你就知道</a>
         <hr />
-        <br />
-        <img src="e:\user\pic.jpg" height=200/>
+        <p>湖南大学欢迎您<br />
+        <a href="http://www.hnu.edu.cn/"><img src="e:/pic.jpg" height=200 /></a>
+        <table border="1" cellpadding="10">
+            <caption>学历公示</caption>
+            <tr>
+                <th>姓名</th>
+                <th colspan="2">学历</th>
+            </tr>
+            <tr>
+                <td>张晗</td>
+                <td>本科</td>
+                <td>高中</td>                    
+            </tr>
+        </table>
+        <p>欢迎报考湖南大学</p>
+        <ol type="1">
+            <li><a href="http://ee.hnu.edu.cn/">环境工程</a></li>
+            <li>通信工程</li>
+            <li>软件工程</li>
+            <li>商务英语</li>
+        </ol>
+        <ul class="a">
+            <li><a href="http://ee.hnu.edu.cn/">环境工程</a></li>
+            <li>通信工程</li>
+            <li>软件工程</li>
+            <li>商务英语</li>
+        </ul>
+        <span style="font-family: Arial;color:RGB(128,128,128)">
+            <b><i>Zhang Han 张晗</i><br></b>
+            WeeGo | CTO<br>
+            Mobile: 18253160835 | QQ: 694175346<br>
+            WeeGo科技有限公司 | 山东省济南市舜华路1500号三区205<br>
+            官网:<a href="http://www.hnu.edu.cn/">http://www.hnu.edu.cn</a><br>
+        </span>
+        <iframe src="https://www.gov.cn//" width="1080" height="500" frameborder="0" name="iframe_a"></iframe>
+        <div id="footer" style="background-color:#FFA500;clear:both;text-align:center;">版权 © ifansay</div>
     </body>
 </html>
